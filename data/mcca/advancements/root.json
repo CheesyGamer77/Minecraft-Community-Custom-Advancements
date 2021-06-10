@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Minecraft Community Advancements",
+        "description": "Custom Advancements Created by Minecraft Community Members",
+
+        "icon": {
+            "item": "minecraft:copper_ingot"
+        },
+        "background": "minecraft:textures/block/copper_ore.png",
+
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

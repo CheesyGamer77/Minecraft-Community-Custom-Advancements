@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Collections",
+        "description": "That's a lot of stuff",
+
+        "icon": {
+            "item": "minecraft:chest"
+        },
+
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false,
+
+        "frame": "challenge"
+    },
+
+    "parent": "mcca:root",
+
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

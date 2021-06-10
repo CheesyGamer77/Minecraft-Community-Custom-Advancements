@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Advanced Miner",
+        "description": "Mining Away~",
+
+        "icon": {
+            "item": "minecraft:iron_pickaxe"
+        },
+
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false,
+
+        "frame": "challenge"
+    },
+
+    "parent": "mcca:collections/root",
+
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

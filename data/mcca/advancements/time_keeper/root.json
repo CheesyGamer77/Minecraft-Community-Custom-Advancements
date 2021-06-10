@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Time Keeper",
+        "description": "Tick tock goes the clock",
+
+        "icon": {
+            "item": "minecraft:clock"
+        },
+
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false,
+
+        "frame": "challenge"
+    },
+
+    "parent": "mcca:root",
+
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

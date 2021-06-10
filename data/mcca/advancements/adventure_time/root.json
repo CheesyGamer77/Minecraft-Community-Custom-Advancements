@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": "Adventure Time",
+        "description": "Come on, grab your friends~",
+
+        "icon": {
+            "item": "minecraft:leather_boots"
+        },
+
+        "hidden": false,
+        "show_toast": false,
+        "announce_to_chat": false,
+
+        "frame": "challenge"
+    },
+
+    "parent": "mcca:root",
+
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
