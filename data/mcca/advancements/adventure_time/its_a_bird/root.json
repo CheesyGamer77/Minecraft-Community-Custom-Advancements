@@ -1,7 +1,7 @@
 {
     "display": {
         "title": "It's a bird!",
-        "description": "It's a plane!",
+        "description": "It's a plane! It's not spyglass related!",
 
         "icon": {
             "item": "minecraft:elytra"
