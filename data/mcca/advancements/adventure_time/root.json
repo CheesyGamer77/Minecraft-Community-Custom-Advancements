@@ -6,16 +6,11 @@
         "icon": {
             "item": "minecraft:leather_boots"
         },
+        "background": "minecraft:textures/block/grass_top.png",
 
-        "hidden": false,
         "show_toast": false,
-        "announce_to_chat": false,
-
-        "frame": "challenge"
+        "announce_to_chat": false
     },
-
-    "parent": "mcca:root",
-
     "criteria": {
         "root": {
             "trigger": "minecraft:tick"

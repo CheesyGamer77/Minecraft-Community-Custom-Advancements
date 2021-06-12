@@ -6,16 +6,11 @@
         "icon": {
             "item": "minecraft:clock"
         },
+        "background": "minecraft:textures/block/item_frame.png",
 
-        "hidden": false,
         "show_toast": false,
-        "announce_to_chat": false,
-
-        "frame": "challenge"
+        "announce_to_chat": false
     },
-
-    "parent": "mcca:root",
-
     "criteria": {
         "root": {
             "trigger": "minecraft:tick"

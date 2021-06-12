@@ -1,20 +1,16 @@
 {
     "display": {
         "title": "Crafting",
-        "description": "Craft it, craft it good",
+        "description": "And so we go to work!",
 
         "icon": {
             "item": "minecraft:crafting_table"
         },
+        "background": "minecraft:textures/block/crafting_table_top.png",
 
-        "hidden": false,
         "show_toast": false,
-        "announce_to_chat": false,
-
-        "frame": "challenge"
+        "announce_to_chat": false
     },
-
-    "parent": "mcca:root",
 
     "criteria": {
         "root": {
