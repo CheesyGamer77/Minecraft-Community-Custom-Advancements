@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "Minecraft Community Advancements",
-        "description": "Custom Advancements Created by Minecraft Community Members",
+        "title": "Community Advancements",
+        "description": "Advancements Created by Community Members",
 
         "icon": {
             "item": "minecraft:copper_ingot"
