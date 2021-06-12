@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Extra Bits",
+        "description": "Where everything else goes!",
+
+        "icon": {
+            "item": "minecraft:ender_chest"
+        },
+        "background": "minecraft:textures/block/beacon.png",
+
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
