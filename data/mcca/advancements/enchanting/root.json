@@ -1,0 +1,19 @@
+{
+    "display": {
+        "title": "Enchanting",
+        "description": "Sparkling!",
+
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "background": "minecraft:textures/block/enchanting_table_top.png",
+
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
