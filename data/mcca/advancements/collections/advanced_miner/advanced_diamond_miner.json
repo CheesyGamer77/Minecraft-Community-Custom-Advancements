@@ -1,1 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
 
+        "title": "Advanced Diamond Miner",
+        "description": "That's a lot of Diamond",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:collections/advanced_miner/root",
+
+    "criteria": {
+        "mine_diamonds": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:mined",
+                                        "stat": "minecraft:diamond_ore",
+                                        "value": {
+                                            "min": 5000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

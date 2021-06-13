@@ -1,1 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:emerald_ore"
+        },
 
+        "title": "Advanced Emerald Miner",
+        "description": "That's a lot of Emeralds",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:collections/advanced_miner/root",
+
+    "criteria": {
+        "mine_emeralds": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:mined",
+                                        "stat": "minecraft:emerald_ore",
+                                        "value": {
+                                            "min": 1000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

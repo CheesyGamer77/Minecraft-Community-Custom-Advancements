@@ -1,1 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gold_ore"
+        },
 
+        "title": "Advanced Gold Miner",
+        "description": "That's a lot of Gold",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:collections/advanced_miner/root",
+
+    "criteria": {
+        "mine_gold": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:mined",
+                                        "stat": "minecraft:gold_ore",
+                                        "value": {
+                                            "min": 10000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
