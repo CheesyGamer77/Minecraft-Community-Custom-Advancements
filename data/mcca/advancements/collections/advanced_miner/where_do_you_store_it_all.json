@@ -1,1 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
 
+        "title": "Where do you store it all?",
+        "description": "That's a lot of... well, everything",
+
+        "frame": "challenge",
+
+        "hidden": false
+    },
+
+    "parent": "mcca:collections/advanced_miner/root",
+
+    "criteria": {
+        "get_all_advanced_miner_advancements": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "advancements": {
+                                    "mcca:collections/advanced_miner/stone": true,
+                                    "mcca:collections/advanced_miner/coal": true,
+                                    "mcca:collections/advanced_miner/iron": true,
+                                    "mcca:collections/advanced_miner/gold": true,
+                                    "mcca:collections/advanced_miner/diamond": true,
+                                    "mcca:collections/advanced_miner/emerald": true,
+                                    "mcca:collections/advanced_miner/quartz": true,
+                                    "mcca:collections/advanced_miner/ancient_debris": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
