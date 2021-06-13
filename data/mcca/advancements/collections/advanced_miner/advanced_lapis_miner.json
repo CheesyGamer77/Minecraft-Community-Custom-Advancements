@@ -1,1 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lapis_ore"
+        },
 
+        "title": "Advanced Lapis Miner",
+        "description": "That's a lot of Lapis",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:collections/advanced_miner/root",
+
+    "criteria": {
+        "mine_lapis": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:mined",
+                                        "stat": "minecraft:lapis_ore",
+                                        "value": {
+                                            "min": 10000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
