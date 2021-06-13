@@ -16,7 +16,7 @@
     "parent": "mcca:collections/advanced_miner/root",
 
     "criteria": {
-        "mine_debris": {
+        "mine_copper": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": [
