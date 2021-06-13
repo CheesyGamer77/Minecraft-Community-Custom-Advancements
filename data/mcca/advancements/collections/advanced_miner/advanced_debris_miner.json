@@ -1,1 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_scrap"
+        },
 
+        "title": "Advanced Debris Miner",
+        "description": "That's a lot of Debris",
+        
+        "frame": "challenge",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:advancements/collections/advanced_miner/root",
+
+    "criteria": {
+        "mine_debris": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:mined",
+                                        "stat": "minecraft:ancient_debris",
+                                        "value": {
+                                            "min": 1000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
