@@ -8,7 +8,8 @@
         "description": "That's a lot of... well, everything",
 
         "frame": "challenge",
-
+        "show_toast": "true",
+        "announce_to_chat": "true",
         "hidden": false
     },
 
@@ -25,14 +26,17 @@
                         "predicate": {
                             "player": {
                                 "advancements": {
-                                    "mcca:collections/advanced_miner/stone": true,
-                                    "mcca:collections/advanced_miner/coal": true,
-                                    "mcca:collections/advanced_miner/iron": true,
-                                    "mcca:collections/advanced_miner/gold": true,
-                                    "mcca:collections/advanced_miner/diamond": true,
-                                    "mcca:collections/advanced_miner/emerald": true,
-                                    "mcca:collections/advanced_miner/quartz": true,
-                                    "mcca:collections/advanced_miner/ancient_debris": true
+                                    "mcca:collections/advanced_miner/advanced_coal_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_copper_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_debris_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_diamond_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_emerald_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_gold_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_iron_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_lapis_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_quartz_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_redstone_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_stone_miner": true
                                 }
                             }
                         }
