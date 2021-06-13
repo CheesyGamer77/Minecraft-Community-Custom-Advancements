@@ -1,1 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
 
+        "title": "Mesosphere Madman",
+        "description": "Out of radar range now",
+
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:adventure_time/its_a_bird/stratosphere_superstar",
+
+    "criteria": {
+        "reach_Y50000": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 50000
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
