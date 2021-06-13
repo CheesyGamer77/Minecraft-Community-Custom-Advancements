@@ -13,7 +13,7 @@
         "hidden": false
     },
 
-    "parent": "mcca:extra_bits/root",
+    "parent": "mcca:time_keeper/root",
 
     "criteria": {
         "jump_500000": {
