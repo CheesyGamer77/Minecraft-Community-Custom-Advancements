@@ -1,1 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
 
+        "title": "Thermosphere Thespian",
+        "description": "Auroras are jealous of you",
+
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:adventure_time/its_a_bird/mesosphere_madman",
+
+    "criteria": {
+        "reach_Y85000": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 85000
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
