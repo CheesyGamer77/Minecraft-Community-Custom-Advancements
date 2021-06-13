@@ -7,7 +7,7 @@
         "title": "What is this, modded?",
         "description": "Wayyy too much stone mined",
         
-        "frame": "goal",
+        "frame": "challenge",
         "show_toast": "true",
         "announce_to_chat": "true",
         "hidden": false
