@@ -1,1 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_gateway"
+        },
 
+        "title": "Existing in the Exosphere",
+        "description": "You're in space. Coming Down is gonna hurt.",
+
+        "frame": "challenge",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:adventure_time/its_a_bird/thermosphere_thespian",
+
+    "criteria": {
+        "reach_Y956000": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 956000
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
