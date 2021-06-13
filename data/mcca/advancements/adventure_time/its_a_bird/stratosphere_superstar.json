@@ -1,1 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
 
+        "title": "Stratosphere Superstar",
+        "description": "Smell the Ozone!",
+
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:adventure_time/its_a_bird/troposphere_traverser",
+
+    "criteria": {
+        "reach_Y14500": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 14500
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
