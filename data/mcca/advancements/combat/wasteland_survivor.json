@@ -1,1 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
 
+        "title": "Wasteland Survivor",
+        "description": "West Virginia ain't got nothing on me",
+
+        "frame": "challenge",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:combat/root",
+
+    "criteria": {
+        "kill_mobs_500000": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:custom",
+                                        "stat": "minecraft:mob_kills",
+                                        "value": {
+                                            "min": 500000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

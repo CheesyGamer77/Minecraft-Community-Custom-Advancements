@@ -1,1 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_shovel"
+        },
 
+        "title": "Wasting your tools!",
+        "description": "Repair them!",
+
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:crafting/root",
+
+    "criteria": {
+        "break_100": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:broken",
+                                        "value": {
+                                            "min": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
