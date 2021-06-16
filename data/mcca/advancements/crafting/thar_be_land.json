@@ -16,7 +16,7 @@
     "parent": "mcca:crafting/root",
 
     "criteria": {
-        "obtain_tnt": {
+        "obtain_spyglass": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
