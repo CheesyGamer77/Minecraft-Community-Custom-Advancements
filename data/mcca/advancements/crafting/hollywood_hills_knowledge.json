@@ -1,1 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
 
+        "title": "Hollywood Hills Knowledge",
+        "description": "Here in my garage...",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:crafting/root",
+
+    "criteria": {
+        "obtain_knowledge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": 64,
+                        "item": "minecraft:bookshelf"
+                    }
+                ]
+            }
+        }
+    }
+}

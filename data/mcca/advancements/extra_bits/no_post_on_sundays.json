@@ -1,1 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chainmail_helmet"
+        },
 
+        "title": "No Post on Sundays?",
+        "description": "\"Mail\" through a Chimney",
+        
+        "frame": "challenge",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:extra_bits/root",
+
+    "criteria": {
+        "wear_chainmail": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "item": "minecraft:chainmail_helmet"
+                                },
+                                "chest": {
+                                    "item": "minecraft:chainmail_chestplate"
+                                },
+                                "legs": {
+                                    "item": "minecraft:chainmail_leggings"
+                                },
+                                "feet": {
+                                    "item": "minecraft:chainmail_boots"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

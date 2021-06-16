@@ -1,1 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:jungle_sapling"
+        },
 
+        "title": "Ends of the Earth",
+        "description": "Was it over here?...",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:/adventure_time/root",
+
+    "criteria": {
+        "visit_modified_jeb": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:modified_jungle_edge"
+                }
+            }
+        }
+    }
+}

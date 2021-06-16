@@ -1,1 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spyglass"
+        },
 
+        "title": "Thar Be Land!",
+        "description": "Vanilla Optifine",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:crafting/root",
+
+    "criteria": {
+        "obtain_spyglass": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": 1,
+                        "item": "minecraft:spyglass"
+                    }
+                ]
+            }
+        }
+    }
+}
