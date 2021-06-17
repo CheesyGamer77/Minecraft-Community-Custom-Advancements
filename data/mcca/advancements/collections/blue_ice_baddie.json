@@ -1,1 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blue_ice"
+        },
 
+        "title": "Blue Ice Baddie",
+        "description": "Now time to go fast",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:crafting/root",
+
+    "criteria": {
+        "obtain_blue_ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": 64,
+                        "item": "minecraft:blue_ice"
+                    }
+                ]
+            }
+        }
+    }
+}
