@@ -13,7 +13,7 @@
         "announce_to_chat": true
     },
 
-    "parent": "mcca:crafting/root",
+    "parent": "mcca:collections/root",
 
     "criteria": {
         "obtain_blue_ice": {
