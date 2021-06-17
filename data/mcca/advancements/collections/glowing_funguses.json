@@ -1,1 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:glow_lichen"
+        },
 
+        "title": "Glowing Funguses",
+        "description": "Or are they fungi?",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+
+    "criteria": {
+        "obtain_glow_lichen": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": 64,
+                        "item": "minecraft:glow_lichen"
+                    }
+                ]
+            }
+        }
+    }
+}
