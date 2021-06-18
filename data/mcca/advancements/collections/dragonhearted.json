@@ -1,1 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
 
+        "title": "Dragonhearted",
+        "description": "https://www.youtube.com/watch?v=07rtl-zcQhg",
+        
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+	
+    "criteria": {
+        "obtain_dragon_head": {
+            "trigger": "minecraft:inventory_changed",
+            "condtions": {
+                "items": [
+                    {
+                        "item": "minecraft:dragon_head",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}
