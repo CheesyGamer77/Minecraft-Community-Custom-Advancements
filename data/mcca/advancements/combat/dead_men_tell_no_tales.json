@@ -1,1 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rotten_flesh"
+        },
 
+        "title": "Dead men tell no tales",
+        "description": "Gurgle gurgle",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:combat/root",
+
+    "criteria": {
+        "killed_by_drowned": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned"
+                }
+            }
+        }
+    }
+}
