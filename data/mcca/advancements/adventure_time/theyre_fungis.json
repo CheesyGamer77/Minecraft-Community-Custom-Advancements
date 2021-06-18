@@ -1,1 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mycelium"
+        },
 
+        "title": "They're Fungi's",
+        "description": "Mario's Homies",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:/adventure_time/root",
+
+    "criteria": {
+        "visit_mush_field": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "biome": "minecraft:mushroom_fields"
+                }
+            }
+        }
+    }
+}
