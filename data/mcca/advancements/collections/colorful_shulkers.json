@@ -1,1 +1,95 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_shulker_box"
+        },
 
+        "title": "Colorful Shulkers",
+        "description": "Collect them all!",
+        
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+	
+    "criteria": {
+        "obtain_all_shulker_box_colors": {
+            "trigger": "minecraft:inventory_changed",
+            "condtions": {
+                "items": [
+                    {
+                        "item": "minecraft:shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:white_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:orange_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:magenta_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:light_blue_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:yellow_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:pink_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:lime_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:gray_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:light_gray_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:cyan_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:purple_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:blue_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:brown_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:green_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:red_shulker_box",
+                        "count": 1
+                    },
+                    {
+                        "item": "minecraft:black_shulker_box",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}
