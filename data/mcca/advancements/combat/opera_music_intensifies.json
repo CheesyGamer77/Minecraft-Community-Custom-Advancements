@@ -1,1 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
 
+        "title": "Opera Music Intensifies",
+        "description": "Spooky, scary, but no skeletons",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:combat/root",
+
+    "criteria": {
+        "killed_by_phantom": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:phantom"
+                }
+            }
+        }
+    }
+}
