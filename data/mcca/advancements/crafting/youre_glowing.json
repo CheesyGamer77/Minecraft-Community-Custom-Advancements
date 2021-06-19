@@ -1,1 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spectral_arrow"
+        },
 
+        "title": "You're Glowing!",
+        "description": "No really, we can see you glowing. Get that checked out.",
+        
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:crafting/root",
+	
+    "criteria": {
+        "obtain_spectral_arrow": {
+            "trigger": "minecraft:inventory_changed",
+            "condtions": {
+                "items": [
+                    {
+                        "item": "minecraft:spectral_arrow",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}
