@@ -1,1 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:heart_of_the_sea"
+        },
 
+        "title": "Who needs lungs?",
+        "description": "Like a fish, but human",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:enchanting/root",
+
+    "criteria": {
+        "obtain_conduit_power": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:conduit_power": {}
+                }
+            }
+        }
+    }
+}
