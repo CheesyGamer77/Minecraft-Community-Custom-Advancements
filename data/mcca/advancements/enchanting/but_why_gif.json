@@ -1,1 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:shield"
+        },
 
+        "title": "ButWhy.gif",
+        "description": "No seriously, why enchant that?",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:enchanting/root",
+
+    "criteria": {
+        "obtain_mending_shield": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:shield"],
+                    "enchantments": [
+                      {
+                          "enchantment": "minecraft:mending",
+                          "levels": {
+                              "min": 1
+                          }
+                      }
+                    ]
+                }
+            }
+        }
+    }
+}
