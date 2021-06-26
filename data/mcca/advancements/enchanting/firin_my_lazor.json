@@ -1,1 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:beacon"
+        },
 
+        "title": "Firin' My Lazor",
+        "description": "MAXIMUM POWER",
+
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:enchanting/root",
+
+    "criteria": {
+        "obtain_full_beacon_power": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:regeneration": {},
+                    "minecraft:speed": {
+                      "amplifier": 2
+                    },
+                    "minecraft:haste": {
+                      "amplifier": 2
+                    },
+                    "minecraft:resistance": {
+                      "amplifier": 2
+                    },
+                    "minecraft:jump_boost": {
+                      "amplifier": 2
+                    },
+                    "minecraft:strength": {
+                      "amplifier": 2
+                    }
+                }
+            }
+        }
+    }
+}
