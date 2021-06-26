@@ -1,1 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potion.effect.turtle_master"
+        },
 
+        "title": "Billy's Favorite Potion",
+        "description": "Turtles are pretty cool",
+
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+
+    "criteria": {
+        "obtain_turtle_master_potion": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:turtle_master"
+            }
+        }
+    }
+}
