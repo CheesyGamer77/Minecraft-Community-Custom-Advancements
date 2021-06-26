@@ -1,1 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:fire"
+        },
 
+        "title": "Matress Murderer",
+        "description": "Intentional Game Design",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:/adventure_time/root",
+
+    "criteria": {
+        "sleep_in_nether_or_end": {
+            "trigger": "minecraft:slept_in_bed",
+            "conditions": {
+                "location": {
+                    "dimension": {
+                        "minecraft:the_end",
+                        "minecraft:the_nether"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

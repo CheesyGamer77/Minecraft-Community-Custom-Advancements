@@ -1,8 +1,33 @@
 # Minecraft Community Custom Advancements
 
-A 1.17+ Custom Advancements Datapack for Minecraft Java Edition
+## A 1.17+ Custom Advancements Datapack for Minecraft Java Edition
 
-Please note the advancements below will show for Advancement Name and Advancement Description, **not** how to achieve the advancment.
+This datapack is an effort by members of the Minecraft Community to help provide an additional challenge within the vanilla gameplay experience. This datapack was complied with ideas from the community, and without those people, this wouldn't be possible. We'd like to thank those who helped contribute ideas and concepts to the datapack below:
+
+ - CaptainSparklez
+ - Dream
+ - HelenAngel
+ - InTheLittleWood
+ - Mega_Spud
+ - RWTema
+ - Simon and Lewis of the Yogscast
+ - skyboy026
+ - And community members:
+   - billyK_
+   - Camotoy
+   - CheesyGamer77
+   - ItsVex
+   - KrypticKubed
+   - Legocreator2013
+   - Nimble
+   - Raybeano99
+   - \_Svi
+
+## To Install this Datapack
+
+Fill out the deets in here when we finish
+
+###### Please note the advancements below will show for Advancement Name and Advancement Description, **not** how to achieve the advancment.
 
 Advancement Name | Advancement Description | --- | Advancement Name | Advancement Description |
 --- | --- | --- | --- | --- |
@@ -30,7 +55,7 @@ Evil Wizards, they are | Like Death Eaters, but worse | --- | Helen's Favorite T
 Yankee With No Brim | Hol' on lemmie go around dis hat... WOAHH | --- | Dame da ne | Such a fool |
 Are Ya Winning Son? | I was always winning, dad | --- | Old Town Road | https://www.youtube.com/watch?v=w2Ov5jzm3j8 |
 Get Stickbugged Lol | https://youtu.be/dQw4w9WgXcQ | --- | I'm Batman | A bat-man of sorts |
-The Lonely Island | I'm on a BOAT | --- | Buckets O' Fish | Extreme Tactical Fishing |
+The Lonely Island | Try speed-crafting all these now | --- | Buckets O' Fish | Extreme Tactical Fishing |
 Ore-ible Puns | That's some silky Ores there | --- | Chillager's Revenge | It DoEsN't EvEn GlOw |
 Thar Be Land! | Vanilla Optifine | --- | A True GOAT | The Goatfather |
 Candle in the Wind | https://www.youtube.com/watch?v=MYU3F8uUGiw | --- | Locked Exploration | This map's got boundaries |
@@ -57,3 +82,5 @@ Semi-Cloud Storage | Always accessible | --- | Colorful Shulkers | Collect them 
 What is this, modded? | Wayyy too much stone mined | --- | 2 *BILLION*? | Yep. Get to work :) |
 One of everything | No seriously. Get one of everything. | --- | We're out of ideas | This is #100, you try and figure out a hundred custom advancements |
 --- | --- | --- |  --- |  --- | 
+
+###### Finally, we hope you enjoy the challenge for this datapack! We put a lot of time and effort into it, so we hope you have fun achieving everything! :)

@@ -1,1 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_bed"
+        },
 
+        "title": "Sleeping among the Stars",
+        "description": "The air is kinda thin up here...",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:/adventure_time/root",
+
+    "criteria": {
+        "sleep_above_250": {
+            "trigger": "minecraft:slept_in_bed",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                          "min": 250
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

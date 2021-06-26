@@ -1,1 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stick"
+        },
 
+        "title": "Evil Wizards, they are",
+        "description": "Like Death Eaters, but worse",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:combat/root",
+
+    "criteria": {
+        "kill_10_evokers": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:evoker"
+                  },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:killed",
+                                        "stat": "minecraft:evoker",
+                                        "value": {
+                                            "min": 10
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

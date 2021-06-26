@@ -1,1 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin"
+        },
 
+        "title": "Pumpkin King",
+        "description": "That's not coming off...",
+
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:enchanting/root",
+
+    "criteria": {
+        "obtain_binding_pumpkin": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "item": {
+                    "items": ["minecraft:carved_pumpkin"],
+                    "enchantments": [
+                      {
+                          "enchantment": "minecraft:binding_curse",
+                          "levels": {
+                              "min": 1
+                          }
+                      }
+                    ]
+                }
+            }
+        }
+    }
+}
