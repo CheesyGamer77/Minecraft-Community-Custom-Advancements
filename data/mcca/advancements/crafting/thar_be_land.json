@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "count": 1,
-                        "item": "minecraft:spyglass"
+                        "items": ["minecraft:spyglass"],
+		    	"count": {
+				"min": 1
+                        }
                     }
                 ]
             }
