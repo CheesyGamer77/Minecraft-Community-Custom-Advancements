@@ -1,1 +1,51 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
 
+        "title": "Lost your Head?",
+        "description": "Don't worry, we found it!",
+        
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+	
+    "criteria": {
+        "obtain_all_heads": {
+            "trigger": "minecraft:inventory_changed",
+            "condtions": {
+                "items": [
+                    {
+                        "items": ["minecraft:skeleton_skull"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:wither_skeleton_skull"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:zombie_head"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:creeper_head"],
+                        "count": {
+                          "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

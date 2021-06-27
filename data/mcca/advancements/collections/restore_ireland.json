@@ -1,1 +1,43 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:potato"
+        },
 
+        "title": "Restore Ireland",
+        "description": "#PotatoFamineNeverForget",
+
+        "frame": "challenge",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:collections/root",
+
+    "criteria": {
+        "harvest_1mill_potatoes": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "minecraft:picked_up": {
+                                            "minecraft:potato": 1000000
+                                        }
+                                        
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

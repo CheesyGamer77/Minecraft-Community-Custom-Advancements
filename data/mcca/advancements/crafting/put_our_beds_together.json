@@ -1,1 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:white_bed"
+        },
 
+        "title": "Put our beds together?",
+        "description": "....unless?",
+
+        "frame": "challenge",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:crafting/root",
+
+    "criteria": {
+        "craft_all_beds": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "minecraft:crafted": {
+                                            "minecraft:white_bed": 1,
+                                            "minecraft:orange_bed": 1,
+                                            "minecraft:magenta_bed": 1,
+                                            "minecraft:light_blue_bed": 1,
+                                            "minecraft:yellow_bed": 1,
+                                            "minecraft:lime_bed": 1,
+                                            "minecraft:pink_bed": 1,
+                                            "minecraft:gray_bed": 1,
+                                            "minecraft:light_gray_bed": 1,
+                                            "minecraft:cyan_bed": 1,
+                                            "minecraft:purple_bed": 1,
+                                            "minecraft:blue_bed": 1,
+                                            "minecraft:brown_bed": 1,
+                                            "minecraft:green_bed": 1,
+                                            "minecraft:red_bed": 1,
+                                            "minecraft:black_bed": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

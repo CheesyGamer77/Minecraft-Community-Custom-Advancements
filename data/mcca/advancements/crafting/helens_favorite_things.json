@@ -1,1 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:purpur_block"
+        },
 
+        "title": "Helen's Favorite Things!",
+        "description": "These are a few of my favorite things...",
+
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "goal"
+    },
+    "parent": "mcca:crafting/root",
+    "criteria": {
+        "obtain_purpur_blocks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "count": 64,
+                        "item": "minecraft:purpur_block"
+                    },
+                    {
+                        "count": 64,
+                        "item": "minecraft:purpur_pillar"
+                    },
+                    {
+                        "count": 64,
+                        "item": "minecraft:purpur_slab"
+                    },
+                    {
+                        "count": 64,
+                        "item": "minecraft:purpur_stairs"
+                    }
+                ]
+            }
+        }
+    }
+}
