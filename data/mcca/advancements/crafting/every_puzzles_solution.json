@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "count": 64,
-                        "item": "minecraft:tnt"
+                        "items": ["minecraft:tnt"],
+			            "count": {
+				            "min": 64
+                        }
                     }
                 ]
             }
