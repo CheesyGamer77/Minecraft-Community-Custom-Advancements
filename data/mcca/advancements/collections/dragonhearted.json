@@ -22,7 +22,9 @@
                 "items": [
                     {
                         "item": "minecraft:dragon_head",
-                        "count": 1
+                        "count": {
+				"min": 1
+			}
                     }
                 ]
             }
