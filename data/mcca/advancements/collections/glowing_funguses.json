@@ -22,9 +22,9 @@
                 "items": [
                     {
                         "items": ["minecraft:glow_lichen"],
-						"count": {
-							"min": 64
-						}
+			"count": {
+				"min": 64
+			}
                     }
                 ]
             }
