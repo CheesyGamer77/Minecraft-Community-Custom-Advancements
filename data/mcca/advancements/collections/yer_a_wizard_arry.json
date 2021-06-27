@@ -25,7 +25,9 @@
                         "entity": "this",
                         "predicate": {
                             "player": {
-                                "level": 30
+                                "level": {
+					"min": 30
+				}
                             }
                         }
                     }
