@@ -19,20 +19,34 @@
             "conditions": {
                 "items": [
                     {
-                        "count": 64,
-                        "item": "minecraft:purpur_block"
+                        "items": ["minecraft:cookie"],
+		    	"count": {
+				"min": 64
+                        }
                     },
                     {
-                        "count": 64,
-                        "item": "minecraft:purpur_pillar"
+                        "items": ["minecraft:purpur_block"],
+		    	"count": {
+				"min": 64
+                        }
                     },
                     {
-                        "count": 64,
-                        "item": "minecraft:purpur_slab"
+                        "items": ["minecraft:purpur_pillar"],
+		    	"count": {
+				"min": 64
+                        }
                     },
                     {
-                        "count": 64,
-                        "item": "minecraft:purpur_stairs"
+                        "items": ["minecraft:purpur_slab"],
+		    	"count": {
+				"min": 64
+                        }
+                    },
+                    {
+                        "items": ["minecraft:purpur_stairs"],
+		    	"count": {
+				"min": 64
+                        }
                     }
                 ]
             }
