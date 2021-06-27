@@ -1,1 +1,129 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rose_bush"
+        },
 
+        "title": "Flower Power",
+        "description": "17 different powers",
+        
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+	
+    "criteria": {
+        "obtain_all_flowers": {
+            "trigger": "minecraft:inventory_changed",
+            "condtions": {
+                "items": [
+                    {
+                        "items": ["minecraft:dandelion"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:poppy"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:blue_orchid"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:allium"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:azure_bluet"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:red_tulip"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:orange_tulip"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:white_tulip"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:pink_tulip"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:oxeye_daisy"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:cornflower"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:lily_of_the_valley"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:wither_rose"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:sunflower"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:lilac"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:rose_bush"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:peony"],
+                        "count": {
+                          "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
