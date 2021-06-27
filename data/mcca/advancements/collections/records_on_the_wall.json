@@ -1,1 +1,105 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:music_disc_13"
+        },
 
+        "title": "Record's on the Wall",
+        "description": "Life's Been Good",
+        
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+	
+    "criteria": {
+        "obtain_all_discs": {
+            "trigger": "minecraft:inventory_changed",
+            "condtions": {
+                "items": [
+                    {
+                        "items": ["minecraft:music_disc_13"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_cat"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_blocks"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_chirp"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_far"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_mall"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_mellohi"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_stal"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_strad"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_ward"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_11"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_wait"],
+                        "count": {
+                          "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:music_disc_pigstep"],
+                        "count": {
+                          "min": 1
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
