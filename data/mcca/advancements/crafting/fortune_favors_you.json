@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "count": 64,
-                        "item": "minecraft:cookie"
+                        "items": ["minecraft:cookie"],
+			            "count": {
+		    		        "min": 64
+                        }
                     }
                 ]
             }
