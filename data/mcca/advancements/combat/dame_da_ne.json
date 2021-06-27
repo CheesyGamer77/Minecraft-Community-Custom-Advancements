@@ -1,1 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:red_tulip"
+        },
 
+        "title": "Dame da ne",
+        "description": "Such a fool",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:combat/root",
+
+    "criteria": {
+        "hurt_villager": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 0.5
+                    }
+                },
+                "entity" {
+                    "type": "minecraft:villager"
+                }
+            }
+        }
+    }
+}
