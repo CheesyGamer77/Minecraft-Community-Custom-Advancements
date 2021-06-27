@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "count": 64,
-                        "item": "minecraft:candle"
+                        "items": ["minecraft:candle"],
+			            "count": {
+				            "min": 64
+			            }
                     }
                 ]
             }
