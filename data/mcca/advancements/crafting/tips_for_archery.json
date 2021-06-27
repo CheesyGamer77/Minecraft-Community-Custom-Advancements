@@ -1,1 +1,59 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tipped_arrow.effect.slow_falling"
+        },
 
+        "title": "Tips for Archery",
+        "description": "Potions + Arrows = ...Success?",
+
+        "frame": "challenge",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:crafting/youre_glowing",
+
+    "criteria": {
+        "craft_all_arrows": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "minecraft:crafted": {
+                                            "minecraft:arrow": 1,
+                                            "minecraft:spectral_arrow": 1,
+                                            "minecraft:tipped_arrow.effect.night_vision": 1,
+                                            "minecraft:tipped_arrow.effect.invisibility": 1,
+                                            "minecraft:tipped_arrow.effect.leaping": 1,
+                                            "minecraft:tipped_arrow.effect.fire_resistance": 1,
+                                            "minecraft:tipped_arrow.effect.swiftness": 1,
+                                            "minecraft:tipped_arrow.effect.slowness": 1,
+                                            "minecraft:tipped_arrow.effect.water_breathing": 1,
+                                            "minecraft:tipped_arrow.effect.healing": 1,
+                                            "minecraft:tipped_arrow.effect.harming": 1,
+                                            "minecraft:tipped_arrow.effect.poison": 1,
+                                            "minecraft:tipped_arrow.effect.regeneration": 1,
+                                            "minecraft:tipped_arrow.effect.strength": 1,
+                                            "minecraft:tipped_arrow.effect.weakness": 1,
+                                            "minecraft:tipped_arrow.effect.levitation": 1,
+                                            "minecraft:tipped_arrow.effect.turtle_master": 1,
+                                            "minecraft:tipped_arrow.effect.slow_falling": 1
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
