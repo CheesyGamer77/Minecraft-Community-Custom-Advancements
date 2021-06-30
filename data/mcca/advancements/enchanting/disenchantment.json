@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:grindstone"
+        },
 
+        "title": "Disenchantment",
+        "description": "#NotSponsoredByNetflix",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:enchanting/root",
+
+    "criteria": {
+        "use_grindstone_once": {
+            
+        }
+    }
+}
