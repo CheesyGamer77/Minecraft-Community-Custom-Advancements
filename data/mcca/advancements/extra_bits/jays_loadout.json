@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:netherite_pickaxe"
+        },
 
+        "title": "Jay's Loadout",
+        "description": "A True Community Spelunker!",
+
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:extra_bits/root",
+
+    "criteria": {
+        "get_specialized_hotbar": {
+            
+        }
+    }
+}
