@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rail"
+        },
 
+        "title": "On A Rail",
+        "description": "Back in my day....",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:/adventure_time/root",
+
+    "criteria": {
+        "minecart_ride_1km": {
+          
+        }
+    }
+}
