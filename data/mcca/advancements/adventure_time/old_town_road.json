@@ -13,7 +13,7 @@
         "hidden": false
     },
 
-    "parent": "mcca:/adventure_time/root",
+    "parent": "mcca:adventure_time/root",
 
     "criteria": {
         "horse_ride_100km": {
