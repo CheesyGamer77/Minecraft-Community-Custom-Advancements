@@ -13,7 +13,7 @@
         "hidden": false
     },
 
-    "parent": "mcca:/adventure_time/root",
+    "parent": "mcca:adventure_time/root",
 
     "criteria": {
         "elytra_travel_40075km": {
