@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone_shovel"
+        },
 
+        "title": "MOAR Tools",
+        "description": "One of Each",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:crafting/root",
+
+    "criteria": {
+        "craft_each_tool": {
+            
+        }
+    }
+}
