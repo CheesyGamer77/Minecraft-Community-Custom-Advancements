@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:saddle"
+        },
 
+        "title": "Old Town Road",
+        "description": "https://www.youtube.com/watch?v=w2Ov5jzm3j8",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:/adventure_time/root",
+
+    "criteria": {
+        "horse_ride_100km": {
+          
+        }
+    }
+}
