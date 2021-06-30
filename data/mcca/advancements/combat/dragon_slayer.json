@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_crystal"
+        },
 
+        "title": "Dragon Slayer",
+        "description": "Jean is furious at you",
+        
+        "frame": "challenge",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:combat/all_open_gateways",
+
+    "criteria": {
+        "kill_100_dragons": {
+            
+        }
+    }
+}
