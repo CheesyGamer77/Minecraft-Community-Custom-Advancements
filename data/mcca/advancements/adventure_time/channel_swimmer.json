@@ -13,7 +13,7 @@
         "hidden": false
     },
 
-    "parent": "mcca:/adventure_time/root",
+    "parent": "mcca:adventure_time/root",
 
     "criteria": {
         "swim_travel_34km": {
