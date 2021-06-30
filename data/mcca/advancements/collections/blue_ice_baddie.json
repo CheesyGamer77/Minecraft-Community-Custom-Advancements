@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "count": 64,
-                        "item": "minecraft:blue_ice"
+                        "items": ["minecraft:blue_ice"],
+			"count": {
+				"min": 64
+                        }
                     }
                 ]
             }

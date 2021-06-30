@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "count": 64,
-                        "item": "minecraft:bookshelf"
+                        "items": ["minecraft:bookshelf"],
+		    	"count": {
+				"min": 64
+                        }
                     }
                 ]
             }

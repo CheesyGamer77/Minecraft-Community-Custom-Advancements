@@ -20,10 +20,12 @@
             "trigger": "minecraft:inventory_changed",
             "condtions": {
                 "items": [
-                    {
-                        "item": "minecraft:spectral_arrow",
-                        "count": 1
-                    }
+			{
+                        "items": ["minecraft:spectral_arrow"],
+		    	"count": {
+				"min": 1
+                        	}
+			}
                 ]
             }
         }

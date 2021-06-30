@@ -21,8 +21,10 @@
             "conditions": {
                 "items": [
                     {
-                        "count": 64,
-                        "item": "minecraft:glow_lichen"
+                        "items": ["minecraft:glow_lichen"],
+			"count": {
+				"min": 64
+			}
                     }
                 ]
             }
