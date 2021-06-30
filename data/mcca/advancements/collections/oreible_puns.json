@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+
+        "title": "Ore-ible Puns",
+        "description": "That's some silky Ores there",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+
+    "criteria": {
+        "get_each_ore_block": {
+            
+        }
+    }
+}
