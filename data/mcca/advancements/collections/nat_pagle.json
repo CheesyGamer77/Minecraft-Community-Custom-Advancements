@@ -13,7 +13,7 @@
         "hidden": false
     },
 
-    "parent": "wjre:custom/root",
+    "parent": "mcca:collections/root",
 
     "criteria": {
         "catch_1000_fish": {
