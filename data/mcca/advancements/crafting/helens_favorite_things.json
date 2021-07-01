@@ -19,12 +19,6 @@
             "conditions": {
                 "items": [
                     {
-                        "items": ["minecraft:cookie"],
-		    	"count": {
-				"min": 64
-                        }
-                    },
-                    {
                         "items": ["minecraft:purpur_block"],
 		    	"count": {
 				"min": 64

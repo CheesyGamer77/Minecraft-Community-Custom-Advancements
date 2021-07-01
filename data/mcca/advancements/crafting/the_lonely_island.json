@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:oak_boat"
+        },
 
+        "title": "The Lonely Island",
+        "description": "Try speed-crafting all these now",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:crafting/root",
+
+    "criteria": {
+        "craft_each_boat_type": {
+            
+        }
+    }
+}

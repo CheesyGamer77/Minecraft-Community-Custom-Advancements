@@ -1,11 +1,11 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:grindstone"
+            "item": "minecraft:diamond_ore"
         },
 
-        "title": "Disenchantment",
-        "description": "#NotSponsoredByNetflix",
+        "title": "Ore-ible Puns",
+        "description": "That's some silky Ores there",
 
         "frame": "goal",
         "hidden": false,
@@ -13,10 +13,10 @@
         "announce_to_chat": true
     },
 
-    "parent": "mcca:enchanting/root",
+    "parent": "mcca:collections/root",
 
     "criteria": {
-        "use_grindstone_once": {
+        "get_each_ore_block": {
             
         }
     }

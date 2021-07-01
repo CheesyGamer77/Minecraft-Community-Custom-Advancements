@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tropical_fish_bucket"
+        },
 
+        "title": "Tropical Fishing",
+        "description": "Blame ItsVex for this one",
+
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+
+    "criteria": {
+        "each_trop_fish_variant": {
+            
+        }
+    }
+}

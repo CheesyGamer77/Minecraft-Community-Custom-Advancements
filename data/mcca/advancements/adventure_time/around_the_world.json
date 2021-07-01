@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
 
+        "title": "Around the World",
+        "description": "https://www.youtube.com/watch?v=dwDns8x3Jb4",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:adventure_time/root",
+
+    "criteria": {
+        "elytra_travel_40075km": {
+          
+        }
+    }
+}

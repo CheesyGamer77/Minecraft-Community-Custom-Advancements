@@ -20,7 +20,9 @@
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
-                    "minecraft:regeneration": {},
+                    "minecraft:regeneration": {
+                      "amplifier": 1
+                    },
                     "minecraft:speed": {
                       "amplifier": 2
                     },

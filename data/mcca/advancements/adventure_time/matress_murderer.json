@@ -13,7 +13,7 @@
         "hidden": false
     },
 
-    "parent": "mcca:/adventure_time/root",
+    "parent": "mcca:adventure_time/root",
 
     "criteria": {
         "sleep_in_nether_or_end": {
@@ -21,7 +21,7 @@
             "conditions": {
                 "location": {
                     "dimension": {
-                        "minecraft:the_end",
+                        "minecraft:the_end"
                         "minecraft:the_nether"
                         }
                     }

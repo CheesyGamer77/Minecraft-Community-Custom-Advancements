@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
 
+        "title": "How do I craft this again?",
+        "description": "https://www.youtube.com/watch?v=fcuWKpyUGHo",
+
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:crafting/root",
+
+    "criteria": {
+        "get_all_recipes": {
+            
+        }
+    }
+}

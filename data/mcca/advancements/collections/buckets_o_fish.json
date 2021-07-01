@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pufferfish_bucket"
+        },
 
+        "title": "Buckets O' Fish",
+        "description": "Extreme Tactical Fishing",
+
+        "frame": "goal",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:collections/root",
+
+    "criteria": {
+        "get_all_fish_buckets": {
+            
+        }
+    }
+}

@@ -1,1 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
 
+        "title": "We're out of ideas",
+        "description": "This is #100, you try and figure out a hundred custom advancements",
+
+        "frame": "challenge",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+
+    "parent": "mcca:extra_bits/root",
+
+    "criteria": {
+        "get_all_mcca_advancements": {
+            
+        }
+    },
+  
+    "rewards": {
+        "experience": 1000000
+    }
+}

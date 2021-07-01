@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
 
+        "title": "The Captain's Revenge",
+        "description": "Insert Dated Meme Here",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:combat/root",
+
+    "criteria": {
+        "kill_500_creepers": {
+            
+        }
+    }
+}

@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:dragon_egg"
+        },
 
+        "title": "All Open Gateways",
+        "description": "Jean's gonna be mad...",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:combat/root",
+
+    "criteria": {
+        "kill_20_dragons": {
+            
+        }
+    }
+}

@@ -1,1 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:pointed_dripstone"
+        },
 
+        "title": "I'm Batman",
+        "description": "You could say I'm some sort of a Bat-man myself",
+        
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:combat/root",
+
+    "criteria": {
+        "kill_100_bats": {
+            
+        }
+    }
+}
