@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:potion.effect.turtle_master"
+            "item": "minecraft:potion",
+            "nbt": "{\"effect\": \"minecraft:turtle_master\"}"
         },
 
         "title": "Billy's Favorite Potion",
