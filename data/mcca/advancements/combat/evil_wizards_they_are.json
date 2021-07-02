@@ -16,7 +16,7 @@
     "parent": "mcca:combat/root",
 
     "criteria": {
-        "kill_10_evokers": {
+        "kill_28_evokers": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
@@ -33,7 +33,7 @@
                                         "type": "minecraft:killed",
                                         "stat": "minecraft:evoker",
                                         "value": {
-                                            "min": 10
+                                            "min": 27
                                         }
                                     }
                                 ]
