@@ -17,7 +17,31 @@
 
     "criteria": {
         "kill_100_dragons": {
-            
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                  },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:killed",
+                                        "stat": "minecraft:ender_dragon",
+                                        "value": {
+                                            "min": 99
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
         }
     }
 }
