@@ -18,7 +18,7 @@
     "criteria": {
         "obtain_dragon_head": {
             "trigger": "minecraft:inventory_changed",
-            "condtions": {
+            "conditions": {
                 "items": [
                     {
                         "item": "minecraft:dragon_head",
