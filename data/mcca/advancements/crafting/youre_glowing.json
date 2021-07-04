@@ -18,7 +18,7 @@
     "criteria": {
         "obtain_spectral_arrow": {
             "trigger": "minecraft:inventory_changed",
-            "condtions": {
+            "conditions": {
                 "items": [
 			{
                         "items": ["minecraft:spectral_arrow"],
