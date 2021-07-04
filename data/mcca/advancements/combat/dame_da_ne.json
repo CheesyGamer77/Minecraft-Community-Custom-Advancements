@@ -24,7 +24,7 @@
                         "min": 0.5
                     }
                 },
-                "entity" {
+                "entity": {
                     "type": "minecraft:villager"
                 }
             }
