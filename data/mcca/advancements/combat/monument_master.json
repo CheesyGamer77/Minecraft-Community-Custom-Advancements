@@ -21,7 +21,26 @@
             "conditions": {
                 "entity": {
                     "type": "minecraft:elder_guardian"
-                }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "stats": [
+                                    {
+                                        "type": "minecraft:killed",
+                                        "stat": "minecraft:elder_guardian",
+                                        "value": {
+                                            "min": 2
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
             }
         }
     }
