@@ -1,10 +1,10 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:fire"
+            "item": "minecraft:flint_and_steel"
         },
 
-        "title": "Matress Murderer",
+        "title": "Mattress Murderer",
         "description": "Intentional Game Design",
         
         "frame": "goal",

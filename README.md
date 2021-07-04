@@ -31,7 +31,7 @@ Fill out the deets in here when we finish
 
 Advancement Name | Advancement Description | --- | Advancement Name | Advancement Description |
 --- | --- | --- | --- | --- |
-Totally Not Tubeluar! | Cowabunga! | --- | Ends of the Earth | Was it over here?... |
+Totally Not Tubeular! | Cowabunga! | --- | Ends of the Earth | Was it over here?... |
 They're Fungi's | Mario's Homies | --- | Monument Master | Now go drink some milk! |
 No Post on Sundays? | "Mail" through a Chimney | --- | Advanced Stone Miner | That's a lot of Stone |
 Advanced Iron Miner | That's a lot of Iron | --- | Advanced Gold Miner | That's a lot of Gold |
@@ -76,7 +76,7 @@ MOAR Tools | One of Each | --- | Never tell me the odds | Egg-cellent Puns |
 Tropical Fishing | Blame ItsVex for this one | --- | How do I craft this again? | https://www.youtube.com/watch?v=fcuWKpyUGHo |
 The Captain's Revenge | Insert Dated Meme Here | --- | Blue Ice Baddie | Now time to go fast |
 Every Puzzle's Solution | "/give Honeydew 46 64" | --- | Firin' My Lazor | MAXIMUM POWER |
-Sleeping among the Stars | The air is kinda thin up here... | --- | Matress Murderer | Intentional Game Design |
+Sleeping among the Stars | The air is kinda thin up here... | --- | Mattress Murderer | Intentional Game Design |
 Wasting your tools! | Repair them! | --- | DING. THAT. BELL. | And get everyone annoyed at you :) |
 Semi-Cloud Storage | Always accessible | --- | Colorful Shulkers | Collect them all! |
 What is this, modded? | Wayyy too much stone mined | --- | 2 *BILLION*? | Yep. Get to work :) |
