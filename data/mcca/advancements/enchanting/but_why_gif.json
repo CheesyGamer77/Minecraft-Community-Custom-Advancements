@@ -19,17 +19,19 @@
         "obtain_mending_shield": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "item": {
-                    "items": ["minecraft:shield"],
-                    "enchantments": [
-                      {
-                          "enchantment": "minecraft:mending",
-                          "levels": {
-                              "min": 1
-                          }
-                      }
-                    ]
-                }
+                "items": [
+                    {
+						"items": ["minecraft:shield"],
+						"enchantments": [
+						  {
+							"enchantment": "minecraft:mending",
+							"levels": {
+								"min": 1
+							}
+						  }
+						]
+					}
+                ]
             }
         }
     }
