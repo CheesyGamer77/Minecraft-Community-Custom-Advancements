@@ -21,16 +21,16 @@
             "conditions": {
                 "items": [
                     {
-						"items": ["minecraft:shield"],
-						"enchantments": [
-						  {
-							"enchantment": "minecraft:mending",
-							"levels": {
-								"min": 1
-							}
-						  }
-						]
-					}
+			"items": ["minecraft:shield"],
+			"enchantments": [
+			  {
+				"enchantment": "minecraft:mending",
+				"levels": {
+					"min": 1
+				}
+			  }
+			]
+		    }
                 ]
             }
         }
