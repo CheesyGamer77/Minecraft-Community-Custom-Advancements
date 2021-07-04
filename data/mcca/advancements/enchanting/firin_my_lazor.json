@@ -21,22 +21,21 @@
             "conditions": {
                 "effects": {
                     "minecraft:regeneration": {
-                      "amplifier": 1
                     },
                     "minecraft:speed": {
-                      "amplifier": 2
+                      "amplifier": 1
                     },
                     "minecraft:haste": {
-                      "amplifier": 2
+                      "amplifier": 1
                     },
                     "minecraft:resistance": {
-                      "amplifier": 2
+                      "amplifier": 1
                     },
                     "minecraft:jump_boost": {
-                      "amplifier": 2
+                      "amplifier": 1
                     },
                     "minecraft:strength": {
-                      "amplifier": 2
+                      "amplifier": 1
                     }
                 }
             }
