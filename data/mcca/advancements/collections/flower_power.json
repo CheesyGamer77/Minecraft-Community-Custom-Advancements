@@ -18,7 +18,7 @@
     "criteria": {
         "obtain_all_flowers": {
             "trigger": "minecraft:inventory_changed",
-            "condtions": {
+            "conditions": {
                 "items": [
                     {
                         "items": ["minecraft:dandelion"],

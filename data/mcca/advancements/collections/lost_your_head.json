@@ -18,7 +18,7 @@
     "criteria": {
         "obtain_all_heads": {
             "trigger": "minecraft:inventory_changed",
-            "condtions": {
+            "conditions": {
                 "items": [
                     {
                         "items": ["minecraft:skeleton_skull"],

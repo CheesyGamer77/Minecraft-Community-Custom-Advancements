@@ -18,7 +18,7 @@
     "criteria": {
         "obtain_all_discs": {
             "trigger": "minecraft:inventory_changed",
-            "condtions": {
+            "conditions": {
                 "items": [
                     {
                         "items": ["minecraft:music_disc_13"],

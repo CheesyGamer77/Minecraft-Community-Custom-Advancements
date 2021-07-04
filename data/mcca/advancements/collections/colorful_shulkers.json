@@ -18,10 +18,10 @@
     "criteria": {
         "obtain_all_shulker_box_colors": {
             "trigger": "minecraft:inventory_changed",
-            "condtions": {
+            "conditions": {
                 "items": [
                     {
-                        "item": ["minecraft:shulker_box"],
+                        "items": ["minecraft:shulker_box"],
                         "count": {
 				"min": 1
                         	}

@@ -19,17 +19,19 @@
         "obtain_binding_pumpkin": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "item": {
-                    "items": ["minecraft:carved_pumpkin"],
-                    "enchantments": [
-                      {
-                          "enchantment": "minecraft:binding_curse",
-                          "levels": {
-                              "min": 1
+                "items": [
+                    {
+                        "items": ["minecraft:carved_pumpkin"],
+                        "enchantments": [
+                          {
+                              "enchantment": "minecraft:binding_curse",
+                              "levels": {
+                                  "min": 1
+                              }
                           }
-                      }
-                    ]
-                }
+                        ]
+                    }
+                ]
             }
         }
     }
