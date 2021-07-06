@@ -17,39 +17,115 @@
 
     "criteria": {
         "craft_all_arrows": {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": [
+                "items": [
                     {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "player": {
-                                "stats": [
-                                    {
-                                        "minecraft:crafted": {
-                                            "minecraft:arrow": 1,
-                                            "minecraft:spectral_arrow": 1,
-                                            "minecraft:tipped_arrow.effect.night_vision": 1,
-                                            "minecraft:tipped_arrow.effect.invisibility": 1,
-                                            "minecraft:tipped_arrow.effect.leaping": 1,
-                                            "minecraft:tipped_arrow.effect.fire_resistance": 1,
-                                            "minecraft:tipped_arrow.effect.swiftness": 1,
-                                            "minecraft:tipped_arrow.effect.slowness": 1,
-                                            "minecraft:tipped_arrow.effect.water_breathing": 1,
-                                            "minecraft:tipped_arrow.effect.healing": 1,
-                                            "minecraft:tipped_arrow.effect.harming": 1,
-                                            "minecraft:tipped_arrow.effect.poison": 1,
-                                            "minecraft:tipped_arrow.effect.regeneration": 1,
-                                            "minecraft:tipped_arrow.effect.strength": 1,
-                                            "minecraft:tipped_arrow.effect.weakness": 1,
-                                            "minecraft:tipped_arrow.effect.levitation": 1,
-                                            "minecraft:tipped_arrow.effect.turtle_master": 1,
-                                            "minecraft:tipped_arrow.effect.slow_falling": 1
-                                        }
-                                    }
-                                ]
-                            }
+                        "items": ["minecraft:arrow"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:spectral_arrow"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.night_vision"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.invisibility"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.leaping"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.fire_resistance"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.swiftness"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.slowness"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.water_breathing"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.healing"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.harming"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.poison"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.regeneration"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.strength"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.weakness"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.levitation"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.turtle_master"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tipped_arrow.effect.slow_falling"],
+                        "count": {
+                            "min": 1
                         }
                     }
                 ]
