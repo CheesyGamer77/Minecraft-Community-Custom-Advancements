@@ -71,7 +71,7 @@ Definitely not Toph | I'm not Toph; I'm the MELON LORD! | --- | Restore Ireland 
 Lost your Head? | Don't worry, we found it! | --- | Good for your eyes | It's not carrots |
 Tips for Archery | Potions + Arrows = Success? | --- | Placing Blocks | Once a Day |
 On A Rail | Back in my day.... | --- | Leader of the Pack | A gang of wolves |
-Sticks and Stone | Get back up! | --- | Disenchantment | #NotSponsoredByNetflix |
+Sticks and Stone | Get back up! | --- | Disenchantment | #NotSponsored |
 MOAR Tools | One of Each | --- | Never tell me the odds | Egg-cellent Puns |
 Tropical Fishing | Blame ItsVex for this one | --- | How do I craft this again? | https://www.youtube.com/watch?v=fcuWKpyUGHo |
 The Captain's Revenge | Insert Dated Meme Here | --- | Blue Ice Baddie | Now time to go fast |
