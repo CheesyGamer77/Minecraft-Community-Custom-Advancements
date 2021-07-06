@@ -7,7 +7,7 @@
         "title": "Put our beds together?",
         "description": "....unless?",
 
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": "true",
         "announce_to_chat": "true",
         "hidden": false
@@ -17,37 +17,103 @@
 
     "criteria": {
         "craft_all_beds": {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:inventory_changed",
             "conditions": {
-                "player": [
+                "items": [
                     {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "player": {
-                                "stats": [
-                                    {
-                                        "minecraft:crafted": {
-                                            "minecraft:white_bed": 1,
-                                            "minecraft:orange_bed": 1,
-                                            "minecraft:magenta_bed": 1,
-                                            "minecraft:light_blue_bed": 1,
-                                            "minecraft:yellow_bed": 1,
-                                            "minecraft:lime_bed": 1,
-                                            "minecraft:pink_bed": 1,
-                                            "minecraft:gray_bed": 1,
-                                            "minecraft:light_gray_bed": 1,
-                                            "minecraft:cyan_bed": 1,
-                                            "minecraft:purple_bed": 1,
-                                            "minecraft:blue_bed": 1,
-                                            "minecraft:brown_bed": 1,
-                                            "minecraft:green_bed": 1,
-                                            "minecraft:red_bed": 1,
-                                            "minecraft:black_bed": 1
-                                        }
-                                    }
-                                ]
-                            }
+                        "items": ["minecraft:white_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:orange_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:magenta_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:light_blue_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:yellow_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:lime_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:pink_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:gray_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:light_gray_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:cyan_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:purple_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:blue_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:brown_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:green_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:red_bed"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:black_bed"],
+                        "count": {
+                            "min": 1
                         }
                     }
                 ]
