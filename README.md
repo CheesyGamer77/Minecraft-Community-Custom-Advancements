@@ -55,7 +55,7 @@ Evil Wizards, they are | Like Death Eaters, but worse | --- | Helen's Favorite T
 Yankee With No Brim | Hol' on lemmie go around dis hat... WOAHH | --- | Dame da ne | Such a fool |
 Are Ya Winning Son? | I was always winning, dad | --- | Old Town Road | https://www.youtube.com/watch?v=w2Ov5jzm3j8 |
 Get Stickbugged Lol | https://youtu.be/dQw4w9WgXcQ | --- | I'm Batman | A bat-man of sorts |
-The Lonely Island | Try speed-crafting all these now | --- | Buckets O' Fish | Extreme Tactical Fishing |
+The Lonely Island | Try speed-crafting all these now | --- | Buckets O'...Fish? | Extreme Tactical Fishing |
 Ore-ible Puns | That's some silky Ores there | --- | Chillager's Revenge | It DoEsN't EvEn GlOw |
 Thar Be Land! | Vanilla Optifine | --- | A True GOAT | The Goatfather |
 Candle in the Wind | https://www.youtube.com/watch?v=MYU3F8uUGiw | --- | Locked Exploration | This map's got boundaries |
