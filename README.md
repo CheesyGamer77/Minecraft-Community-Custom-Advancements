@@ -55,7 +55,7 @@ Evil Wizards, they are | Like Death Eaters, but worse | --- | Helen's Favorite T
 Yankee With No Brim | Hol' on lemmie go around dis hat... WOAHH | --- | Dame da ne | Such a fool |
 Are Ya Winning Son? | I was always winning, dad | --- | Old Town Road | https://www.youtube.com/watch?v=w2Ov5jzm3j8 |
 Get Stickbugged Lol | https://youtu.be/dQw4w9WgXcQ | --- | I'm Batman | A bat-man of sorts |
-The Lonely Island | Try speed-crafting all these now | --- | Buckets O' Fish | Extreme Tactical Fishing |
+The Lonely Island | Try speed-crafting all these now | --- | Buckets O'...Fish? | Extreme Tactical Fishing |
 Ore-ible Puns | That's some silky Ores there | --- | Chillager's Revenge | It DoEsN't EvEn GlOw |
 Thar Be Land! | Vanilla Optifine | --- | A True GOAT | The Goatfather |
 Candle in the Wind | https://www.youtube.com/watch?v=MYU3F8uUGiw | --- | Locked Exploration | This map's got boundaries |
@@ -71,7 +71,7 @@ Definitely not Toph | I'm not Toph; I'm the MELON LORD! | --- | Restore Ireland 
 Lost your Head? | Don't worry, we found it! | --- | Good for your eyes | It's not carrots |
 Tips for Archery | Potions + Arrows = Success? | --- | Placing Blocks | Once a Day |
 On A Rail | Back in my day.... | --- | Leader of the Pack | A gang of wolves |
-Sticks and Stone | Get back up! | --- | Disenchantment | #NotSponsoredByNetflix |
+Sticks and Stone | Get back up! | --- | Disenchantment | #NotSponsored |
 MOAR Tools | One of Each | --- | Never tell me the odds | Egg-cellent Puns |
 Tropical Fishing | Blame ItsVex for this one | --- | How do I craft this again? | https://www.youtube.com/watch?v=fcuWKpyUGHo |
 The Captain's Revenge | Insert Dated Meme Here | --- | Blue Ice Baddie | Now time to go fast |

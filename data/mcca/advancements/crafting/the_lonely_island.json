@@ -17,7 +17,47 @@
 
     "criteria": {
         "craft_each_boat_type": {
-            
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:oak_boat"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:spruce_boat"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:birch_boat"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:jungle_boat"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:acacia_boat"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:dark_oak_boat"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
         }
     }
 }

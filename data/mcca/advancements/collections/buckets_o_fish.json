@@ -4,7 +4,7 @@
             "item": "minecraft:pufferfish_bucket"
         },
 
-        "title": "Buckets O' Fish",
+        "title": "Buckets O'...Fish?",
         "description": "Extreme Tactical Fishing",
 
         "frame": "goal",
@@ -17,7 +17,41 @@
 
     "criteria": {
         "get_all_fish_buckets": {
-            
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:cod_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:salmon_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:pufferfish_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:tropical_fish_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:axolotl_bucket"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
         }
     }
 }

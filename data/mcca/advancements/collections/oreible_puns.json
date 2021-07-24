@@ -1,7 +1,7 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:diamond_ore"
+            "item": "minecraft:diamond"
         },
 
         "title": "Ore-ible Puns",
@@ -17,7 +17,65 @@
 
     "criteria": {
         "get_each_ore_block": {
-            
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:coal_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:copper_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:lapis_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:iron_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:gold_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:emerald_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:redstone_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:diamond_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    },
+                    {
+                        "items": ["minecraft:nether_quartz_ore"],
+                        "count": {
+                            "min": 1
+                        }
+                    }
+                ]
+            }
         }
     }
 }
