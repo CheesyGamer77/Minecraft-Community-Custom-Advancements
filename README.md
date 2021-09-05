@@ -21,6 +21,7 @@ This datapack is an effort by members of the Minecraft Community to help provide
    - Nimble
    - Raybeano99
    - \_Svi
+   - TheBatman4Real
 
 ## To Install this Datapack
 
