@@ -69,7 +69,7 @@ The Captain's Revenge | Insert Dated Meme Here | --- | Blue Ice Baddie | Now tim
 Every Puzzle's Solution | "/give Honeydew 46 64" | --- | Firin' My Lazor | MAXIMUM POWER |
 Sleeping among the Stars | The air is kinda thin up here... | --- | DING. THAT. BELL. | And get everyone annoyed at you :) |
 Semi-Cloud Storage | Always accessible | --- | Colorful Shulkers | Collect them all! |
-What is this, modded? | Wayyy too much stone mined | --- | We're out of ideas | This is #100, you try and figure out a hundred custom advancements |
+What is this, modded? | Wayyy too much stone mined | --- | We're out of ideas | This is #77, you try and figure out over 75 custom advancements |
 --- | --- | --- |  --- |  --- | 
 
 ###### Finally, we hope you enjoy the challenge for this datapack! We put a lot of time and effort into it, so we hope you have fun achieving everything! :)
