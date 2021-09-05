@@ -54,7 +54,7 @@ Yankee With No Brim | Hol' on lemmie go around dis hat... WOAHH | --- | Dame da 
 Get Stickbugged Lol | https://youtu.be/dQw4w9WgXcQ | --- | I'm Batman | A bat-man of sorts |
 The Lonely Island | Try speed-crafting all these now | --- | Buckets O'...Fish? | Extreme Tactical Fishing |
 Ore-ible Puns | That's some silky Ores there | --- | Chillager's Revenge | It DoEsN't EvEn GlOw |
-Thar Be Land! | Vanilla Optifine | --- | A True GOAT | The Goatfather |
+Thar Be Land! | Vanilla Optifine | --- | What is this, modded? | Wayyy too much stone mined |
 Candle in the Wind | https://www.youtube.com/watch?v=MYU3F8uUGiw | --- |Glowing Funguses | Or are they fungi? |
 Coca-Cola Mascot | $20 million sponsorship. Gone. | --- | All Open Gateways | Jean's gonna be mad.... |
 Dragon Slayer | Jean is furious at you | --- | Flower Power | 17 different powers |
@@ -70,7 +70,6 @@ The Captain's Revenge | Insert Dated Meme Here | --- | Blue Ice Baddie | Now tim
 Every Puzzle's Solution | "/give Honeydew 46 64" | --- | Firin' My Lazor | MAXIMUM POWER |
 Sleeping among the Stars | The air is kinda thin up here... | --- | DING. THAT. BELL. | And get everyone annoyed at you :) |
 Semi-Cloud Storage | Always accessible | --- | Colorful Shulkers | Collect them all! |
-What is this, modded? | Wayyy too much stone mined | --- | We're out of ideas | This is #77, you try and figure out over 75 custom advancements |
---- | --- | --- |  --- |  --- | 
+We're out of ideas | This is #77, you try and figure out over 75 custom advancements | --- | --- | --- |
 
 ###### Finally, we hope you enjoy the challenge for this datapack! We put a lot of time and effort into it, so we hope you have fun achieving everything! :)
