@@ -2,7 +2,7 @@
     "display": {
         "icon": {
             "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:\"MHF_Herobrine\"}"
+            "nbt": "{SkullOwner:MHF_Herobrine}"
         },
 
         "title": "A Shadow Legend",
