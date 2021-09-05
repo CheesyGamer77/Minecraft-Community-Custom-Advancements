@@ -1,0 +1,42 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+
+        "title": "Gonna need a bigger base...",
+        "description": "But you can get more, right?...right?",
+
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:collections/advanced_miner/filling_up_storage",
+
+    "criteria": {
+        "get_second_level_advanced_miner_advancements": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "advancements": {
+                                    "mcca:collections/advanced_miner/filling_up_storage": true,
+                                    "mcca:collections/advanced_miner/advanced_gold_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_lapis_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_quartz_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_redstone_miner": true,
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
