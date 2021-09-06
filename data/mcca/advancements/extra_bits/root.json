@@ -6,7 +6,7 @@
         "icon": {
             "item": "minecraft:ender_chest"
         },
-        "background": "minecraft:textures/block/beacon.png",
+        "background": "minecraft:textures/block/moss_block.png",
 
         "show_toast": false,
         "announce_to_chat": false

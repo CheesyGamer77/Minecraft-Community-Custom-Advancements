@@ -6,7 +6,7 @@
         "icon": {
             "item": "minecraft:leather_boots"
         },
-        "background": "minecraft:textures/block/grass_top.png",
+        "background": "minecraft:textures/block/tuff.png",
 
         "show_toast": false,
         "announce_to_chat": false

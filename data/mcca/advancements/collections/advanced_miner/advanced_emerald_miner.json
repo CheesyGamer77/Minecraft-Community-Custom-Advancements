@@ -13,7 +13,7 @@
         "hidden": false
     },
 
-    "parent": "mcca:collections/advanced_miner/root",
+    "parent": "mcca:collections/advanced_miner/gonna_need_a_bigger_base",
 
     "criteria": {
         "mine_emeralds": {

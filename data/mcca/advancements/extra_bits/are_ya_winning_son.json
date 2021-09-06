@@ -1,22 +1,22 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:potato"
+            "item": "minecraft:player_head"
         },
 
-        "title": "Restore Ireland",
-        "description": "#PotatoFamineNeverForget",
+        "title": "Are ya winning son?",
+        "description": "I was always winning, dad",
 
-        "frame": "challenge",
+        "frame": "goal",
         "show_toast": "true",
         "announce_to_chat": "true",
         "hidden": false
     },
 
-    "parent": "mcca:collections/root",
+    "parent": "mcca:extra_bits/root",
 
     "criteria": {
-        "harvest_1mill_potatoes": {
+        "join_101": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": [
@@ -27,10 +27,11 @@
                             "player": {
                                 "stats": [
                                     {
-                                        "minecraft:picked_up": {
-                                            "minecraft:potato": 1000000
+                                        "type": "minecraft:custom",
+                                        "stat": "minecraft:leave_game",
+                                        "value": {
+                                            "min": 100
                                         }
-                                        
                                     }
                                 ]
                             }

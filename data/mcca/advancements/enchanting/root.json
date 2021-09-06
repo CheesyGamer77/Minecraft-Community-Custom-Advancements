@@ -6,7 +6,7 @@
         "icon": {
             "item": "minecraft:enchanting_table"
         },
-        "background": "minecraft:textures/block/enchanting_table_top.png",
+        "background": "minecraft:textures/block/amethyst_block.png",
 
         "show_toast": false,
         "announce_to_chat": false

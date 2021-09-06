@@ -13,7 +13,7 @@
         "hidden": false
     },
 
-    "parent": "mcca:collections/advanced_miner/root",
+    "parent": "mcca:collections/advanced_miner/gonna_need_a_bigger_base",
 
     "criteria": {
         "get_all_advanced_miner_advancements": {
@@ -26,17 +26,13 @@
                         "predicate": {
                             "player": {
                                 "advancements": {
-                                    "mcca:collections/advanced_miner/advanced_coal_miner": true,
-                                    "mcca:collections/advanced_miner/advanced_copper_miner": true,
+                                    "mcca:collections/advanced_miner/filling_up_storage": true,
+                                    "mcca:collections/advanced_miner/gonna_need_a_bigger_base": true,
                                     "mcca:collections/advanced_miner/advanced_debris_miner": true,
                                     "mcca:collections/advanced_miner/advanced_diamond_miner": true,
                                     "mcca:collections/advanced_miner/advanced_emerald_miner": true,
-                                    "mcca:collections/advanced_miner/advanced_gold_miner": true,
-                                    "mcca:collections/advanced_miner/advanced_iron_miner": true,
-                                    "mcca:collections/advanced_miner/advanced_lapis_miner": true,
-                                    "mcca:collections/advanced_miner/advanced_quartz_miner": true,
-                                    "mcca:collections/advanced_miner/advanced_redstone_miner": true,
-                                    "mcca:collections/advanced_miner/advanced_stone_miner": true
+                                    "mcca:collections/advanced_miner/mountain_out_of_molehills": true,
+                                    "mcca:collections/advanced_miner/what_is_this_modded": true
                                 }
                             }
                         }

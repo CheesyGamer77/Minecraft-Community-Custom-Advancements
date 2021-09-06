@@ -1,0 +1,41 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:chest"
+        },
+
+        "title": "Filling Up Storage",
+        "description": "But still room for more...",
+
+        "frame": "goal",
+        "show_toast": "true",
+        "announce_to_chat": "true",
+        "hidden": false
+    },
+
+    "parent": "mcca:collections/advanced_miner/root",
+
+    "criteria": {
+        "get_first_level_advanced_miner_advancements": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "player": {
+                                "advancements": {
+                                    "mcca:collections/advanced_miner/advanced_coal_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_copper_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_iron_miner": true,
+                                    "mcca:collections/advanced_miner/advanced_stone_miner": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

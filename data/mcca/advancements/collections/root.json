@@ -6,7 +6,7 @@
         "icon": {
             "item": "minecraft:chest"
         },
-        "background": "minecraft:textures/block/chest_top.png",
+        "background": "minecraft:textures/block/deepslate_bricks.png",
 
         "show_toast": false,
         "announce_to_chat": false

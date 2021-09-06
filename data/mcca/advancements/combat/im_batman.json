@@ -1,7 +1,8 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:pointed_dripstone"
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:TheBatman4Real}"
         },
 
         "title": "I'm Batman",
