@@ -6,7 +6,7 @@
         "icon": {
             "item": "minecraft:crafting_table"
         },
-        "background": "minecraft:textures/block/crafting_table_top.png",
+        "background": "minecraft:textures/block/bookshelf.png",
 
         "show_toast": false,
         "announce_to_chat": false
